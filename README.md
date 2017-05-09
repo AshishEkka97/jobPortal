@@ -1,7 +1,7 @@
 # jobPortal
 A PHP Project to develop a jobPortal
 
-This is work in progress project. Currently I'm trying to create a working and robust backend. The approach is quite non-standard for
+This is a work in progress project. Currently I'm trying to create a working and robust backend. The approach is quite non-standard for
 managing the back end.
 
 Features:
