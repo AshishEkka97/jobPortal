@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<!-------Bootstrap CSS------->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    
+    <!-------A Custom CSS to overwrite Bootstrap CSS------->
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    
+    <!-------JQuery Library------->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    
+    <!-------Bootstrap JS------->
+    <script src="js/bootstrap.min.js"></script>
+    
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+    	<div class="container-fluid">
+        	<div class="navbar-header">
+            	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                	<span class="sr-only">Toggle navigation</span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+      			</button>
+                <a class="navbar-brand" href="index.php">JobPortal</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+            	<li><a href="jobs.php">Jobs</a></li>
+                <li><a href="recruiters.php">Recruiters</a></li>
+                <li><a href="about.php">About</a></li>
+            </ul>
+            <form class="navbar-form navbar-left" action="" method="post">
+            	<div class="form-group">
+                	<input type="text" class="form-control" placeholder="search jobs and more..">      
+                <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span> </button>
+                </div>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="login.php"><span class="glyphicon glyphicon-user" style="padding:3px; border:black 1px solid; border-radius:50%"> </span> Login</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
