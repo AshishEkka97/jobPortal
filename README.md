@@ -4,7 +4,7 @@ A PHP Project to develop a jobPortal
 This is a work in progress project. Currently I'm trying to create a working and robust backend. The approach is quite non-standard for
 managing the back end.
 
-![jobPortal Screenshot]('./screenshots/Screenshot (36).png')
+![jobPortal Screenshot](https://github.com/AshishEkka97/jobPortal/blob/master/screenshots/Screenshot%20(36).png)
 
 Features:
 
